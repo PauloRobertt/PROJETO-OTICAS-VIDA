@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Header(){
     return(
-        <header>
+        <header className='secao-limitada'>
             <img className="logo-img" src="assets/logo.png" alt="Logo"/>
             <div className="links-topo">
                 <a href="">PRODUTOS</a>
