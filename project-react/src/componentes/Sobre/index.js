@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Sobre(){
     return(
-        <div className="section-sobre">
+        <section id="sobre" className="section-sobre">
             <div className="secao-limitada">
                 <h2>QUEM SOMOS NÓS?</h2>
                 <p>
@@ -22,6 +22,6 @@ export default function Sobre(){
                     <img src="assets/atendimento.png" alt="Imagem atendimento"/>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }

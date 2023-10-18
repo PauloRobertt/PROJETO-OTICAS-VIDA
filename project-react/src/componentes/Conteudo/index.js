@@ -1,5 +1,4 @@
 import React from "react";
-import './style.css';
 
 import Capa from '../Capa';
 import Contato from '../Contato';
@@ -8,11 +7,11 @@ import Sobre from '../Sobre';
 
 export default function Conteudo(){
     return(
-        <div className="section-conteudo">
+        <main>
             <Capa/>
             <Produtos/>
             <Sobre/>
             <Contato/>
-        </div>
+        </main>
     );
 }

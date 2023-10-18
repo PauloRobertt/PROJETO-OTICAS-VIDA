@@ -3,7 +3,7 @@ import './style.css'
 
 export default function Capa(){
     return(
-        <div className="section-Capa">
+        <section className="section-Capa">
             <div className="secao-limitada">
                 <div className="conteudo-Capa">
                     <p>Preços baixos em</p>
@@ -13,6 +13,6 @@ export default function Capa(){
                     <p>Você só encontra aqui</p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

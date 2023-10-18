@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Contato(){
     return(
-        <section className="section-contato">
+        <section id='contato' className="section-contato">
             <div className='secao-limitada'>
                 <h2>FALE CONOSCO</h2>
                 <p>Não perca tempo, venha conhecer uma de nossas lojas ou entre em contato através de nossas redes sociais ou da central de atendimento.</p>

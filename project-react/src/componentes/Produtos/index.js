@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Produtos(){
     return(
-        <section className="section-produtos">
+        <section id="produto" className="section-produtos">
             <h2>NOSSOS PRODUTOS</h2>
             <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
             <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>
@@ -29,8 +29,9 @@ export default function Produtos(){
                     <p>R$ 500,00</p>
                 </div>
             </div>
-            <ul className="lista">
-                <p>Todos os nossos produtos incluem:</p>
+
+            <p>Todos os nossos produtos incluem:</p>
+            <ul>
                 <li>Garantia de 1 ano</li>
                 <li>Manutenção preventiva</li>
                 <li>Descontos especiais na compra da segunda unidade</li>
