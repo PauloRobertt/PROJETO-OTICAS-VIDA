@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Produtos(){
     return(
-        <section id="produto" className="section-produtos">
+        <section id="produto" className="secao-produtos">
             <h2>NOSSOS PRODUTOS</h2>
             <p>Trabalhamos com óculos de grau, óculos de sol, lentes transition nos modelos masculino, feminino e infantil.</p>
             <p>Todos os nossos preços são acessíveis e contam com a melhor qualidade do mercado.</p>

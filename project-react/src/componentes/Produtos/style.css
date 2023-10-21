@@ -1,5 +1,6 @@
-.section-produtos{
-    padding:30px 0px;
+.secao-produtos{
+    text-align: center;
+    padding:20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,14 +23,39 @@
     width: 50%;
     height: 40%;
 }
-.section-produtos ul {
+.secao-produtos ul{
     padding: 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
-.section-produtos li {
+.secao-produtos li{
     text-align: left;
     margin: 5px;
+}
+
+@media screen and (max-width:550px) {
+    .secao-produtos{
+        text-align: center;
+    }
+
+    .secao-produtos ul:last-child{
+        text-align: left;
+        width: 100%;
+    }
+
+    .produto-oculos{
+        width: 95%;
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:768px) {
+    .secao-oculos{
+        width: 100%;
+    }
+    .produto-oculos{
+        width: calc((95%/2));
+        height: 30vh;
+    }
 }

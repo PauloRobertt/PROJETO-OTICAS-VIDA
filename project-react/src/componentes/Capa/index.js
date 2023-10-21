@@ -3,8 +3,8 @@ import './style.css'
 
 export default function Capa(){
     return(
-        <section className="section-Capa">
-            <div className="secao-limitada">
+        <section className="secao-Capa">
+            <div className="secao-limitada sombra">
                 <div className="conteudo-Capa">
                     <p>Preços baixos em</p>
                     <h1>

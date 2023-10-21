@@ -19,3 +19,15 @@ body{
     margin: 0px auto;
     text-align: center;
 }
+
+@media screen and (max-width:550px){
+    .secao-limitada{
+        width: 100%
+    }
+}
+
+@media screen and (min-width:551px) and (max-width:768px){
+    .secao-limitada{
+        width: 95%;
+    }
+}

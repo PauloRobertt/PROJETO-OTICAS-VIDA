@@ -1,17 +1,50 @@
-header{
+.conteudo-topo{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height:40px;
-    background-color: white;
+    padding: 5px 0px;
 }
+
+.logo-img img{
+    width: 100%;
+    height: 100%;
+}
+
 .logo-img{
-    height: 85%;
+    height: 30px;
 }
 
 .links-topo a{
     font-size: 14px;
     color: black;
-    padding: 0px 15px;
+    padding-left:15px;
     text-decoration: none;
+}
+
+@media screen and (max-width:550px){
+    .conteudo-topo{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo-img{
+        height: 38px;
+    }
+
+    .links-topo{
+        padding: 10px 0px;
+        width: 93%;
+        border-top: 1px solid gray;
+    }
+
+    .links-topo a{
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:551px) and (max-width:768px){
+    .conteudo-topo{
+        width: 100
+    }
 }
