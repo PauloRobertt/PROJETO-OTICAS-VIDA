@@ -1,2 +1,15 @@
 # PROJETO-OTICAS-VIDA
- O projeto proposto tem como objetivo desenvolver uma página web utilizando a biblioteca React, seguindo uma abordagem de divisão em componentes menores para garantir uma estrutura organizada e modular.
+O projeto proposto tem como objetivo desenvolver uma página web para apresentar a empresa Oticas Vida, destacando seus produtos para seus clientes.
+
+O projeto foi desenvolvido com total responsividade, funcionando perfeitamente em dispositivos móveis, tablets e desktops.
+ 
+## Tecnologias Utilizadas
+- HTML
+- CSS
+- React JS
+
+## Bibliotecas Utilizadas
+- React Router
+
+## Deploy
+Acesse o projeto clicando no link a seguir -> https://vercel.com/paulo-roberts-projects/projeto-oticas-vida
