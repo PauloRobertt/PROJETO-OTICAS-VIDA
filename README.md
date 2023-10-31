@@ -12,4 +12,4 @@ O projeto foi desenvolvido com total responsividade, funcionando perfeitamente e
 - React Router
 
 ## Deploy
-Acesse o projeto clicando no link a seguir -> https://vercel.com/paulo-roberts-projects/projeto-oticas-vida
+Acesse o projeto clicando no link a seguir -> https://projeto-oticas-vida-omega.vercel.app
